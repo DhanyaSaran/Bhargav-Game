@@ -482,7 +482,11 @@ else if(plyr.isTouching(a2) && img===true)
 
 if(count===6)
 {
-  background("black")
+ background("black") 
+  stroke('red') 
+  fill('blue') 
+  textSize(25)
+  text("Completed adventure",displayWidth/2-50,displayHeight/2)
 }
 
   drawSprites();
